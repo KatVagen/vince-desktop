@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drizella – Ebene 5</title>
+  <style>
+    body {
+      margin: 0;
+      background: url('E5_Drizella.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .clickable {
+      position: absolute;
+      cursor: pointer;
+    }
+
+    /* Roter Punkt oben links im Ordner */
+    .exit {
+      top: 155px;
+      left: 580px;
+      width: 30px;
+      height: 30px;
+    }
+
+    /* Dokumente */
+    .doc1 { top: 240px; left: 310px; width: 120px; height: 140px; } /Users/katjavonderhagen/Desktop/Vince Desktop_HTML/Vince Desktop Struktur/E6/E6_DRZ_Anamnese.pdf
+    .doc2 { top: 240px; left: 470px; width: 120px; height: 140px; } /Users/katjavonderhagen/Desktop/Vince Desktop_HTML/Vince Desktop Struktur/E6/E6_DRZ_Inhaftierung_08.23.pdf
+    .doc3 { top: 240px; left: 630px; width: 120px; height: 140px; } /Users/katjavonderhagen/Desktop/Vince Desktop_HTML/Vince Desktop Struktur/E6/E6_DRZ_Psychologie_08.23.pdf
+    .doc4 { top: 240px; left: 790px; width: 120px; height: 140px; } /Users/katjavonderhagen/Desktop/Vince Desktop_HTML/Vince Desktop Struktur/E6/E6_DRZ_Ueberwachung_08.23.pdf
+  </style>
+</head>
+<body>
+
+  <!-- Zurück zum Desktop -->
+  <a class="clickable exit" href="E1_Desktop.html" title="Zurück zum Desktop"></a>
+
+  <!-- Dokumente doppelklickbar -->
+  <div class="clickable doc1" ondblclick="window.open('E6_DRZ_Anamnese.pdf', '_blank')"></div>
+  <div class="clickable doc2" ondblclick="window.open('E6_DRZ_Inhaftierung_08.23.pdf', '_blank')"></div>
+  <div class="clickable doc3" ondblclick="window.open('E6_DRZ_Psychologie_08.23.pdf', '_blank')"></div>
+  <div class="clickable doc4" ondblclick="window.open('E6_DRZ_Ueberwachung_08.23.pdf', '_blank')"></div>
+
+</body>
+</html>

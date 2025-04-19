@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jäger – Ebene 5</title>
+  <style>
+    body {
+      margin: 0;
+      background: url('E5_Jaeger.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: sans-serif;
+    }
+
+    .clickable {
+      position: absolute;
+      cursor: pointer;
+    }
+
+    /* Klickbarer Bereich für Rücksprung */
+    .exit {
+      top: 45px; /* Position im Bild anpassen */
+      left: 585px;
+      width: 30px;
+      height: 30px;
+    }
+
+    /* Klickbare PDFs */
+    .doc1 { top: 205px; left: 250px; width: 200px; height: 50px; }
+    .doc2 { top: 205px; left: 450px; width: 200px; height: 50px; }
+    .doc3 { top: 205px; left: 650px; width: 200px; height: 50px; }
+    .doc4 { top: 205px; left: 850px; width: 200px; height: 50px; }
+  </style>
+</head>
+<body>
+
+  <!-- Rücksprung -->
+  <a href="../E1_Desktop.html">
+    <div class="clickable exit"></div>
+  </a>
+
+  <!-- Klickbare PDF-Dokumente -->
+  <a href="../E6/E6_JAE_Anamnese.pdf" target="_blank"><div class="clickable doc1"></div></a>
+  <a href="../E6/E6_JAE_Gefahrenanalyse_05.22.pdf" target="_blank"><div class="clickable doc2"></div></a>
+  <a href="../E6/E6_JAE_Psychologie_03.22.pdf" target="_blank"><div class="clickable doc3"></div></a>
+  <a href="../E6/E6_JAE_Ueberwachung_04.22.pdf" target="_blank"><div class="clickable doc4"></div></a>
+
+</body>
+</html>
